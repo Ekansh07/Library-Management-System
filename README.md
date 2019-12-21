@@ -1,70 +1,11 @@
-Introduction:
+This system is run using WAMP. The database management system used is MySQL (5.7.24). It is run using WAMP localhost hosted by Apache (version 2.4.37). 
+MySQL queries are used to fetch data from the tables in the database, HTML, CSS, JavaScript is used to design the front end and PHP (version 7.2.14) is used to make this connection between the front end and back end. 
 
-   In this project you will modify the author's BinarySearchTree code 
-   to implement some new methods.
+Steps to run the application: 
 
-
-
-Description:
-
-	Modify the author's BinarySearchTree code to implement the methods
-	shown below.  
-
-    a) nodeCount
-        Recursively traverses the tree and returns the count of nodes.
-
-    b) isFull 
-        Returns true if the tree is full.  A full tree has every node 
-          as either a leaf or a parent with two children.
-
-    c) compareStructure 
-        Compares the structure of current tree to another tree and returns
-          true if they match.
-
-            For example, these two trees have the same structure:
-                   5           10
-                  / \         /  \
-                 3   8       5   15
-                / \         / \
-               1   4       2   7
-
-    d) equals
-        Compares the current tree to another tree and returns true
-          if they are identical.
-
-    e) copy
-        Creates and returns a new tree that is a copy of the original tree.
-
-    f) mirror
-        Creates and returns a new tree that is a mirror image of the original tree.
-        For example, for the tree on the left, the tree on the right is returned:
-    
-            100                 100
-           /   \               /   \
-          50   150    -->     150  50
-         /                           \
-        40                           40
-         \                           /
-         45                         45
-
-    g) isMirror 
-        Returns true if the tree is a mirror of the passed tree.
-
-    h) rotateRight
-        Performs a single rotation on the node having the passed value.
-        If a RotateRight on 100 is performed:
-
-           100                  50
-          /   \                /   \
-         50   150    -->      40   100
-        /                      \     \
-       40                      45    150
-        \ 
-        45
-      
-    g) rotateLeft 
-        As above but left rotation.
-
-    i) printLevels - performs a level-by-level printing of the tree.
-
-    j) main - demonstrate in your main method that all of your new methods work.
+	1.	Download and install WAMP. MySQL will also be automatically installed. 
+	2.	Extract the content of zip file at the location: C/……/wamp64/www/<folder name>. <folder name> is the folder for the application. 
+	3. Setup the database and make the required changes in the code for the application to connect with the database.
+	4.	Open any web browser and type localhost. WAMP localhost will open. You can see the <folder name> from previous stem under My Projects section. 
+	5.	Click on the <folder name>. 
+	6.	The application is launched. 
