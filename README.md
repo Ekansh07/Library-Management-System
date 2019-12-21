@@ -5,7 +5,7 @@ Steps to run the application:
 
 	1.	Download and install WAMP. MySQL will also be automatically installed. 
 	2.	Extract the content of zip file at the location: C/……/wamp64/www/<folder name>. <folder name> is the folder for the application. 
-	3. Setup the database and make the required changes in the code for the application to connect with the database.
+	3.  Setup the database and make the required changes in the code for the application to connect with the database.
 	4.	Open any web browser and type localhost. WAMP localhost will open. You can see the <folder name> from previous stem under My Projects section. 
 	5.	Click on the <folder name>. 
 	6.	The application is launched. 
